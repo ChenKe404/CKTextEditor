@@ -23,7 +23,7 @@ add_definitions(
     -DPRJ_VERSION="${PROJECT_VERSION}"
     -DQT_VERSION="${QT_VERSION}"
     -DPRJ_LICENCE="MIT"
-    -DPRJ_REPOS="https://gitee.com/chenke404/cktext-editor|"
+    -DPRJ_REPOS="https://gitee.com/chenke404/cktext-editor|https://github.com/ChenKe404/CKTextEditor.git"
 )
 
 file(GLOB_RECURSE SOURCES
@@ -51,6 +51,12 @@ target_link_libraries(CKTextEditor PRIVATE
 )
 
 add_subdirectory(plugin)
+
+if(WIN32)
+    set_target_properties(CKTextEditor PROPERTIES
+        LINK_FLAGS "/SUBSYSTEM:WINDOWS /ENTRY:mainCRTStartup"
+    )
+endif()
 
 # Translations
 qt_add_translations(CKTextEditor

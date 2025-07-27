@@ -22,7 +22,7 @@
 bool load_language(QApplication& a,const QString& locName)
 {
     static QTranslator tra;
-    if(tra.load("language/cktexteditor_" + locName + ".qm"))
+    if(tra.load("translations/cktexteditor_" + locName + ".qm"))
         return a.installTranslator(&tra);
     return false;
 }

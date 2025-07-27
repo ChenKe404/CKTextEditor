@@ -35,7 +35,7 @@ QString language_name(const QString& filename, QString& locName)
 {
     static QRegularExpression regx("(.*)_(.+)_(.+)\\.qm");
     auto mt = regx.match(filename);
-    if(!mt.hasCaptured(3))
+    if(!mt.hasCaptured(3) || mt.captured(1) != "cktexteditor")
         return "";
     locName = mt.captured(2)+"_"+mt.captured(3);
     QLocale loc(locName);
@@ -152,11 +152,12 @@ MainWindow::MainWindow(QWidget *parent)
 
     QString locName;
     QTranslator tra;
-    QDir dir(qApp->applicationDirPath()+"/language");
+    auto path = qApp->applicationDirPath()+"/translations/";
+    QDir dir(path);
     for(auto& it : dir.entryList({"*.qm"},QDir::Files))
     {
         auto name = language_name(it,locName);
-        if(name.isEmpty() || !tra.load(it))
+        if(name.isEmpty() || !tra.load(path+it))
             continue;
         auto act = new QAction(name);
         act->setData(locName);
