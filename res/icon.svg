@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="64"
+   height="64"
+   viewBox="0 0 16.933333 16.933333"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="绘图.svg"
+   inkscape:export-filename="绘图.png"
+   inkscape:export-xdpi="33"
+   inkscape:export-ydpi="33"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview172"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.5898438"
+     inkscape:cx="-27.361179"
+     inkscape:cy="94.977887"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5" />
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient25385">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop25381" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0.5;"
+         offset="1"
+         id="stop25383" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient25361">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop25359" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient10077">
+      <stop
+         style="stop-color:#52524e;stop-opacity:1;"
+         offset="0"
+         id="stop10073" />
+      <stop
+         style="stop-color:#52524e;stop-opacity:0;"
+         offset="1"
+         id="stop10075" />
+    </linearGradient>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath6439">
+      <rect
+         style="fill:#000080;fill-opacity:1;stroke:none;stroke-width:10.5833;stroke-linecap:round;stroke-dashoffset:3.3"
+         id="rect6441"
+         width="16.933332"
+         height="16.933332"
+         x="0"
+         y="0"
+         ry="2.9274194"
+         transform="rotate(30)" />
+    </clipPath>
+    <linearGradient
+       xlink:href="#linearGradient10077"
+       id="linearGradient10079"
+       x1="2.585448"
+       y1="9.2421179"
+       x2="12.92711"
+       y2="9.2421179"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       xlink:href="#linearGradient25385"
+       id="radialGradient29935"
+       cx="7.756279"
+       cy="9.2421179"
+       fx="7.756279"
+       fy="9.2421179"
+       r="5.1708312"
+       gradientTransform="matrix(0.99999999,0,0,1.1866631,-87.767903,35.846616)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     id="layer1">
+    <rect
+       style="fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.919155;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect26945"
+       width="14.706516"
+       height="14.706516"
+       x="1.59553"
+       y="1.6309081"
+       ry="3.0817568" />
+    <rect
+       style="fill:#ffe7cc;fill-opacity:1;stroke:none;stroke-width:0.922416;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect26945-2"
+       width="14.758692"
+       height="14.758692"
+       x="0.81545442"
+       y="0.81545442"
+       ry="3.0926902" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.1514px;font-family:KaiTi;-inkscape-font-specification:KaiTi;mix-blend-mode:normal;fill:#333333;fill-opacity:1;stroke:#333333;stroke-width:0.26458333;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       x="1.7243949"
+       y="13.093884"
+       id="text2221"><tspan
+         id="tspan2219"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.1514px;font-family:KaiTi;-inkscape-font-specification:KaiTi;fill:#333333;fill-opacity:1;stroke:#333333;stroke-width:0.26458333;stroke-dasharray:none;stroke-opacity:1"
+         x="1.7243949"
+         y="13.093884">文</tspan></text>
+  </g>
+</svg>
