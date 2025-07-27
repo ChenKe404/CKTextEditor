@@ -1,6 +1,6 @@
 [submodule "cktext"]
 	path = cktext
 	url = https://github.com/ChenKe404/cktext.git
-[submodule "libpe++"]
+[submodule "plugin/3rd/libpe++"]
 	path = plugin/3rd/libpe++
 	url = https://github.com/ChenKe404/libpexx.git
